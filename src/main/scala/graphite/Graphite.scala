@@ -1,7 +1,0 @@
-package graphite
-
-object Graphite {
-
-
-}
-

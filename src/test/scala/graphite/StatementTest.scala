@@ -1,10 +1,9 @@
 package graphite
 
 import graphite.Node.{*, ?}
-import org.scalatest.{FunSpec, Matchers}
 import shapeless.HNil
 
-class StatementTest extends FunSpec with Matchers {
+class StatementTest extends GraphiteQueryTest {
 
   describe("implicit & type safety") {
 
